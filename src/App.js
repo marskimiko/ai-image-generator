@@ -11,6 +11,12 @@ const App = () => {
         <p>Please enter a detailed description 
           <span className="surprise">Surprise me</span>
         </p>
+        <div className="input-container">
+          <input 
+            placeholder="A cat dancing in the rain under the milky way..."
+          />
+          <button>Generate</button>
+        </div>
       </section>
       <section className="image-section"></section>
     </div>
